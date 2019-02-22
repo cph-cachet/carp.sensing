@@ -32,7 +32,7 @@ class SensingBLoC {
   final Sensing sensing = Sensing();
 
   /// Is sensing running, i.e. has the study executor been resumed?
-  bool get isRunning => (sensing.controller != null) ? sensing.controller.executor.state == ProbeState.resumed : false;
+  bool get isRunning => (sensing.controller != null) && sensing.controller.executor.state == ProbeState.resumed;
 
   /// Get the study for this app.
   StudyModel get study => sensing.study != null ? StudyModel(sensing.study) : null;
