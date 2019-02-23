@@ -2,6 +2,7 @@ library mobile_sensing_app;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_realtime_chart/flutter_realtime_chart.dart';
 import 'package:carp_mobile_sensing/carp_mobile_sensing.dart';
 import 'package:carp_communication_package/communication.dart';
 import 'package:carp_context_package/context.dart';

@@ -2,7 +2,7 @@
 
 The CARP Mobile Sensing App provides an example on how to use the [`carp_mobile_sensing`](https://pub.dartlang.org/packages/carp_mobile_sensing) package.
 The app sets up a `Study` that starts a set of `Probe`s and visualizes the data. The UI of the app is shown below, showing
-(from left to right) the Study Visualization page, the Probe List page, and the Data Visualization page (the latter is not implemented yet).
+(from left to right) the Study Visualization page, the Probe List page, and the Data Visualization page.
 
 ![Study Visualization page](documentation/study_viz.jpeg) 
 ![Probe List page](documentation/probe_list.jpeg) 
