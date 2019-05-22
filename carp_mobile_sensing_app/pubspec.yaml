@@ -20,6 +20,10 @@ dependencies:
   carp_audio_package: ^0.3.0
   carp_backend: ^0.3.0
 #  carp_firebase_backend: ^0.3.0
+  flutter_realtime_chart:
+    git:
+      url: git://github.com/RyanYANG52/flutter_realtime_chart
+      ref: master
 
 
 # Overriding carp libraries to use the local copy
